@@ -1,0 +1,19 @@
+{
+  "name": "hangman_newtab",
+  "version": "1.0.0",
+  "description": "Chrome newtab mini game: hangman",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alextrastero/hangman_newtab.git"
+  },
+  "author": "Alexander Garth Odell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alextrastero/hangman_newtab/issues"
+  },
+  "homepage": "https://github.com/alextrastero/hangman_newtab#readme"
+}
