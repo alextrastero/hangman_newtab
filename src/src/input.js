@@ -1,4 +1,6 @@
-export default class Input {
+import React, { Component } from 'react';
+
+class Input extends Component {
 
   componentDidMount() {
     window.addEventListener('keydown', evt => {
@@ -22,3 +24,5 @@ export default class Input {
     return null;
   }
 }
+
+export default Input;

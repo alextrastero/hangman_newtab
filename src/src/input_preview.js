@@ -1,15 +1,10 @@
-import React, { Component } from 'react';
+import React, { PropTypes } from 'react';
 
-export default class InputPreview extends Component {
-  constructor(props) {
-    super(props);
-  }
+const InputPreview = ({input}) =>
+  <h1>{ input }</h1>;
 
-  render() {
-    const { input } = this.props;
+export default InputPreview;
 
-    return (
-      <h1>{ input }</h1>
-    );
-  }
-}
+InputPreview.propTypes = {
+  input: PropTypes.string
+};
